@@ -17,7 +17,7 @@ $personalDetails = [
     'town' => 'Bath'
 ];
 //don't do this
-array_push($personalDetails, 'Perl', 'C');
+array_push($personalDetails[3], 'Perl', 'C');
 
 echo '<pre>';
 print_r($personalDetails);
