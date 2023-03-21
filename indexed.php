@@ -36,3 +36,8 @@ $rando = [1 => 'One', 4 => 'Four', 7 => 'Seven'];
 echo '<pre>';
 print_r($rando);
 echo '</pre>';
+
+$rando[] = 'Nine';
+echo '<pre>';
+print_r($rando);
+echo '</pre>';
