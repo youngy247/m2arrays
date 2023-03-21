@@ -30,3 +30,9 @@ print_r($days);
 echo '</pre>';
 
 echo $days[1];
+
+
+$rando = [1 => 'One', 4 => 'Four', 7 => 'Seven'];
+echo '<pre>';
+print_r($rando);
+echo '</pre>';
