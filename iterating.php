@@ -46,8 +46,8 @@ foreach ($days as $day) {
     echo '<p>' . $day . '</p>';
 }
 
-foreach ($personalDetails as $detail) {
-    echo '<p>' . $detail . '</p>';
+foreach ($personalDetails as $key => $detail) {
+    echo '<p>' . $key . 'is ' . $detail . '</p>';
     }
 
 
