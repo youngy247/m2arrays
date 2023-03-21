@@ -6,3 +6,7 @@ $personalDetails = [
     'age' => 21,
     'town' => 'Bath'
 ];
+
+echo '<pre>';
+print_r($personalDetails);
+echo '</pre>';
