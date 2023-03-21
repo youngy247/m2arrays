@@ -38,6 +38,7 @@ print_r($rando);
 echo '</pre>';
 
 $rando[] = 'Nine';
+$rando[3] = 'Three';
 echo '<pre>';
 print_r($rando);
 echo '</pre>';
