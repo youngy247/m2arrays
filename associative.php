@@ -13,3 +13,9 @@ echo '</pre>';
 
 echo '<p>' . $personalDetails['name']
     . "'s age is " . $personalDetails['age'] . '</p>';
+
+$personalDetails['favColour'] = 'Red';
+
+echo '<pre>';
+print_r($personalDetails);
+echo '</pre>';
