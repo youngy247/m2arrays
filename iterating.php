@@ -32,3 +32,10 @@ echo '<h2>Foreach Loop</h2>';
 foreach ($days as $day) {
     echo '<p>' . $day . '</p>';
 }
+
+foreach ($days as $day) {
+    if ($day === 'Sat') {
+        continue;
+    }
+    echo '<p>' . $day . '</p>';
+}
