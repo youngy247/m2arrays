@@ -11,6 +11,20 @@ $days = [
     'Sun'
 ];
 
-//echo '<pre>';
+$days2 = [
+    'Mon',
+    'Tues',
+    'Wed',
+    'Thu',
+    'Fri',
+    'Sat',
+    3 => 'Fred'
+];
+echo '<pre>';
+print_r($days2);
+echo '</pre>';
+
+
+echo '<pre>';
 print_r($days);
-//echo '</pre>';
+echo '</pre>';
