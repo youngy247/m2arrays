@@ -10,3 +10,15 @@ array_push($programmingLanguages, 'Perl', 'C');
 echo '<pre>';
 print_r($programmingLanguages);
 '</pre';
+
+$personalDetails = [
+    'name' => 'Jane Doe',
+    'age' => 21,
+    'town' => 'Bath'
+];
+//don't do this
+array_push($personalDetails, 'Perl', 'C');
+
+echo '<pre>';
+print_r($personalDetails);
+echo '</pre>';
