@@ -14,3 +14,9 @@ $days = [
 echo '<h2>While Loop</h2>';
 
 $daysArrayLength = count($days);
+
+$i = 0;
+while ($i < $daysArrayLength) {
+    echo '<p>' .$days[$i] . '</p>';
+    $i++;
+}
