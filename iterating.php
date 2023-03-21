@@ -58,3 +58,6 @@ foreach($nums as $num) {
     }
 }
 
+for ($i = 1; $i < count($nums); $i += 2) {
+    echo '<p>' . $nums[$i] . '</p>';
+}
