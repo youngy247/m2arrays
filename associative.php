@@ -19,3 +19,5 @@ $personalDetails['favColour'] = 'Red';
 echo '<pre>';
 print_r($personalDetails);
 echo '</pre>';
+
+echo count($personalDetails) . ' elements in personal details';
