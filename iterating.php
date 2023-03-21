@@ -11,6 +11,12 @@ $days = [
     'Sun'
 ];
 
+$personalDetails = [
+    'name' => 'Jane Doe',
+    'age' => 21,
+    'town' => 'Bath'
+];
+
 echo '<h2>While Loop</h2>';
 
 $daysArrayLength = count($days);
@@ -39,3 +45,9 @@ foreach ($days as $day) {
     }
     echo '<p>' . $day . '</p>';
 }
+
+foreach ($personalDetails as $detail) {
+    echo '<p>' . $detail . '</p>';
+    }
+
+
