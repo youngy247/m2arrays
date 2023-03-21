@@ -11,4 +11,5 @@ echo '<pre>';
 print_r($personalDetails);
 echo '</pre>';
 
-echo '<p>' . $personalDetails['name'] . "'s age is " . $personalDetails['age'] . '</p>';
+echo '<p>' . $personalDetails['name']
+    . "'s age is " . $personalDetails['age'] . '</p>';
