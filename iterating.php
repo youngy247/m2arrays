@@ -26,3 +26,9 @@ echo '<h2>For Loop</h2>';
 for ($i = 0; $i < $daysArrayLength; $i++) {
     echo '<p>' . $days[$i] . '</p>';
 }
+
+echo '<h2>Foreach Loop</h2>';
+
+foreach ($days as $day) {
+    echo '<p>' . $day . '</p>';
+}
