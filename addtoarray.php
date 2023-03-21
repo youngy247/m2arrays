@@ -5,7 +5,7 @@ $programmingLanguages = ['PHP', 'C++', 'C#', 'Python', 'Java'];
 
 $programmingLanguages[] = 'Ruby';
 
-array_push($programmingLanguages, 'Perl');
+array_push($programmingLanguages, 'Perl', 'C');
 
 echo '<pre>';
 print_r($programmingLanguages);
